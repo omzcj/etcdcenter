@@ -2,5 +2,6 @@ build:
 	mkdir bin
 	cp src/main bin/etcdcenter
 	cp -r src/action/ bin/
-	mkdir action
-	cp -r src/action/ action/
+
+	mkdir lib
+	cp -r src/action/ lib/

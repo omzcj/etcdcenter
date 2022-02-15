@@ -1,8 +1,0 @@
-#!/usr/bin/env osascript -l JavaScript
-
-function run(args) {
-	let deviceCondition = {title: {_contains: "iPhone"}}
-	let targetCondition = {title: {_contains: args[0]}}
-	let targets = Application("System Events").processes["Safari"].menuBars.menus["开发"].menuItems.whose(deviceCondition)[0].menus.menuItems.whose(targetCondition)
-	for(i in targets) targets[i].click()
-}

@@ -1,3 +1,0 @@
-#!/usr/bin/env osascript -l JavaScript
-
-Application("System Events").keystroke("q", {using: ["command down", "control down"]})

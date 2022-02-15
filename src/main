@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 /usr/local/bin/etcdctl --endpoints=zhangchaojie.net:2379 watch --prefix mac -- sh -c '
 echo ==========

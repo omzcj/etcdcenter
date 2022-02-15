@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-etcdctl --endpoints=zhangchaojie.net:2379 watch --prefix mac -- sh -c '
+/usr/local/bin/etcdctl --endpoints=zhangchaojie.net:2379 watch --prefix mac -- sh -c '
 echo ==========
 echo ETCD_WATCH_EVENT_TYPE $ETCD_WATCH_EVENT_TYPE
 echo ETCD_WATCH_REVISION $ETCD_WATCH_REVISION
